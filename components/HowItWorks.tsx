@@ -7,8 +7,8 @@ const steps = [
     body: "Send a message or give a call — no long forms, no waiting rooms. Just a simple hello when you're ready.",
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <path d="M4 7C4 5.9 4.9 5 6 5H22C23.1 5 24 5.9 24 7V18C24 19.1 23.1 20 22 20H16L10 24V20H6C4.9 20 4 19.1 4 18V7Z" stroke="#7A9E7E" strokeWidth="1.4" strokeLinejoin="round"/>
-        <path d="M9 11H19M9 15H15" stroke="#7A9E7E" strokeWidth="1.4" strokeLinecap="round"/>
+        <path d="M4 7C4 5.9 4.9 5 6 5H22C23.1 5 24 5.9 24 7V18C24 19.1 23.1 20 22 20H16L10 24V20H6C4.9 20 4 19.1 4 18V7Z" stroke="#7D5A3C" strokeWidth="1.4" strokeLinejoin="round"/>
+        <path d="M9 11H19M9 15H15" stroke="#7D5A3C" strokeWidth="1.4" strokeLinecap="round"/>
       </svg>
     ),
   },
@@ -18,9 +18,9 @@ const steps = [
     body: "We'll have a brief, no-pressure call to see if we're a good fit. You can ask questions, share what's going on, and decide in your own time.",
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <circle cx="14" cy="14" r="9" stroke="#7A9E7E" strokeWidth="1.4"/>
-        <path d="M14 9V14.5L17 17" stroke="#7A9E7E" strokeWidth="1.4" strokeLinecap="round"/>
-        <circle cx="14" cy="14" r="1.5" fill="#7A9E7E"/>
+        <circle cx="14" cy="14" r="9" stroke="#7D5A3C" strokeWidth="1.4"/>
+        <path d="M14 9V14.5L17 17" stroke="#7D5A3C" strokeWidth="1.4" strokeLinecap="round"/>
+        <circle cx="14" cy="14" r="1.5" fill="#7D5A3C"/>
       </svg>
     ),
   },
@@ -30,8 +30,8 @@ const steps = [
     body: "Book your first full session — virtual from anywhere in BC, or in-person at our Burnaby office. We'll go at your pace, always.",
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <path d="M7 14L11.5 18.5L21 9" stroke="#7A9E7E" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-        <circle cx="14" cy="14" r="10" stroke="#7A9E7E" strokeWidth="1.4"/>
+        <path d="M7 14L11.5 18.5L21 9" stroke="#7D5A3C" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+        <circle cx="14" cy="14" r="10" stroke="#7D5A3C" strokeWidth="1.4"/>
       </svg>
     ),
   },

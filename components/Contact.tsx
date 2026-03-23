@@ -59,7 +59,7 @@ export default function Contact() {
                   {
                     icon: (
                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <path d="M2 3.5C2 3.5 4 2 5 3C6 4 5.5 5.5 5.5 5.5C5.5 5.5 7 8 9 9.5C9 9.5 10.5 9 11.5 10C12.5 11 11 12.5 11 12.5C8 14 1 7 2 3.5Z" stroke="#7A9E7E" strokeWidth="1.2"/>
+                        <path d="M2 3.5C2 3.5 4 2 5 3C6 4 5.5 5.5 5.5 5.5C5.5 5.5 7 8 9 9.5C9 9.5 10.5 9 11.5 10C12.5 11 11 12.5 11 12.5C8 14 1 7 2 3.5Z" stroke="#7D5A3C" strokeWidth="1.2"/>
                       </svg>
                     ),
                     label: "Phone",
@@ -69,8 +69,8 @@ export default function Contact() {
                   {
                     icon: (
                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <rect x="2" y="4" width="12" height="9" rx="1.5" stroke="#7A9E7E" strokeWidth="1.2"/>
-                        <path d="M2 6L8 9.5L14 6" stroke="#7A9E7E" strokeWidth="1.2"/>
+                        <rect x="2" y="4" width="12" height="9" rx="1.5" stroke="#7D5A3C" strokeWidth="1.2"/>
+                        <path d="M2 6L8 9.5L14 6" stroke="#7D5A3C" strokeWidth="1.2"/>
                       </svg>
                     ),
                     label: "Email",
@@ -80,8 +80,8 @@ export default function Contact() {
                   {
                     icon: (
                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <path d="M8 2C5.8 2 4 3.8 4 6C4 8.8 8 14 8 14C8 14 12 8.8 12 6C12 3.8 10.2 2 8 2Z" stroke="#7A9E7E" strokeWidth="1.2"/>
-                        <circle cx="8" cy="6" r="1.5" fill="#7A9E7E"/>
+                        <path d="M8 2C5.8 2 4 3.8 4 6C4 8.8 8 14 8 14C8 14 12 8.8 12 6C12 3.8 10.2 2 8 2Z" stroke="#7D5A3C" strokeWidth="1.2"/>
+                        <circle cx="8" cy="6" r="1.5" fill="#7D5A3C"/>
                       </svg>
                     ),
                     label: "Location",
@@ -91,8 +91,8 @@ export default function Contact() {
                   {
                     icon: (
                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <circle cx="8" cy="8" r="5.5" stroke="#7A9E7E" strokeWidth="1.2"/>
-                        <path d="M8 5V8.5L10 10" stroke="#7A9E7E" strokeWidth="1.2" strokeLinecap="round"/>
+                        <circle cx="8" cy="8" r="5.5" stroke="#7D5A3C" strokeWidth="1.2"/>
+                        <path d="M8 5V8.5L10 10" stroke="#7D5A3C" strokeWidth="1.2" strokeLinecap="round"/>
                       </svg>
                     ),
                     label: "Hours",
@@ -238,7 +238,7 @@ export default function Contact() {
                 <div className="flex flex-col items-center justify-center py-16 text-center gap-6">
                   <div className="w-16 h-16 rounded-full bg-sage/15 flex items-center justify-center">
                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                      <path d="M7 14L11.5 18.5L21 9" stroke="#7A9E7E" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M7 14L11.5 18.5L21 9" stroke="#7D5A3C" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </div>
                   <div>

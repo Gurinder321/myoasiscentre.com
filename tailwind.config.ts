@@ -9,14 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        parchment: "#F5F0E8",
-        forest: "#2D3B2D",
-        sage: "#7A9E7E",
-        sand: "#C4B49A",
-        offwhite: "#FDFAF5",
-        "sage-light": "#A8C5AC",
-        "forest-muted": "#4A5E4A",
-        "sand-light": "#E8DDD0",
+        parchment: "#F6F0E8",
+        forest: "#1E1208",
+        sage: "#7D5A3C",
+        sand: "#B8956A",
+        offwhite: "#FBF8F3",
+        "sage-light": "#C9A882",
+        "forest-muted": "#4A2E1A",
+        "sand-light": "#EDE5D8",
       },
       fontFamily: {
         cormorant: ["var(--font-cormorant)", "Georgia", "serif"],

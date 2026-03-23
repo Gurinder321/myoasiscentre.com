@@ -44,8 +44,8 @@ export default function Nav() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="w-8 h-8 rounded-full bg-sage flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <circle cx="8" cy="8" r="3" fill="#FDFAF5"/>
-                <path d="M8 2C8 2 5 5 5 8C5 11 8 14 8 14" stroke="#FDFAF5" strokeWidth="1.2" strokeLinecap="round"/>
+                <circle cx="8" cy="8" r="3" fill="#FBF8F3"/>
+                <path d="M8 2C8 2 5 5 5 8C5 11 8 14 8 14" stroke="#FBF8F3" strokeWidth="1.2" strokeLinecap="round"/>
               </svg>
             </div>
             <span className="font-cormorant font-medium text-lg text-forest tracking-tight">

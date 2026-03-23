@@ -11,8 +11,8 @@ const services = [
     accent: "bg-sage/15",
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <circle cx="14" cy="10" r="5" stroke="#7A9E7E" strokeWidth="1.4"/>
-        <path d="M5 24C5 19 9 16 14 16C19 16 23 19 23 24" stroke="#7A9E7E" strokeWidth="1.4" strokeLinecap="round"/>
+        <circle cx="14" cy="10" r="5" stroke="#7D5A3C" strokeWidth="1.4"/>
+        <path d="M5 24C5 19 9 16 14 16C19 16 23 19 23 24" stroke="#7D5A3C" strokeWidth="1.4" strokeLinecap="round"/>
       </svg>
     ),
   },
@@ -26,11 +26,11 @@ const services = [
     accent: "bg-sand/30",
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <circle cx="10" cy="10" r="4" stroke="#7A9E7E" strokeWidth="1.4"/>
-        <circle cx="18" cy="10" r="4" stroke="#7A9E7E" strokeWidth="1.4"/>
-        <path d="M2 24C2 20 5.5 17 10 17" stroke="#7A9E7E" strokeWidth="1.4" strokeLinecap="round"/>
-        <path d="M18 17C22.5 17 26 20 26 24" stroke="#7A9E7E" strokeWidth="1.4" strokeLinecap="round"/>
-        <path d="M14 19C14 19 12 21 14 23C16 21 14 19 14 19Z" stroke="#7A9E7E" strokeWidth="1.2" fill="#7A9E7E20"/>
+        <circle cx="10" cy="10" r="4" stroke="#7D5A3C" strokeWidth="1.4"/>
+        <circle cx="18" cy="10" r="4" stroke="#7D5A3C" strokeWidth="1.4"/>
+        <path d="M2 24C2 20 5.5 17 10 17" stroke="#7D5A3C" strokeWidth="1.4" strokeLinecap="round"/>
+        <path d="M18 17C22.5 17 26 20 26 24" stroke="#7D5A3C" strokeWidth="1.4" strokeLinecap="round"/>
+        <path d="M14 19C14 19 12 21 14 23C16 21 14 19 14 19Z" stroke="#7D5A3C" strokeWidth="1.2" fill="#7D5A3C20"/>
       </svg>
     ),
   },
@@ -44,9 +44,9 @@ const services = [
     accent: "bg-sage/10",
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <path d="M4 14C4 14 8 6 14 6C20 6 24 14 24 14C24 14 20 22 14 22C8 22 4 14 4 14Z" stroke="#7A9E7E" strokeWidth="1.4"/>
-        <circle cx="14" cy="14" r="3" stroke="#7A9E7E" strokeWidth="1.4"/>
-        <path d="M6 14H8M20 14H22" stroke="#7A9E7E" strokeWidth="1.4" strokeLinecap="round"/>
+        <path d="M4 14C4 14 8 6 14 6C20 6 24 14 24 14C24 14 20 22 14 22C8 22 4 14 4 14Z" stroke="#7D5A3C" strokeWidth="1.4"/>
+        <circle cx="14" cy="14" r="3" stroke="#7D5A3C" strokeWidth="1.4"/>
+        <path d="M6 14H8M20 14H22" stroke="#7D5A3C" strokeWidth="1.4" strokeLinecap="round"/>
       </svg>
     ),
   },
@@ -60,11 +60,11 @@ const services = [
     accent: "bg-forest/5",
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <circle cx="14" cy="7" r="3.5" stroke="#7A9E7E" strokeWidth="1.4"/>
-        <circle cx="7" cy="16" r="3" stroke="#7A9E7E" strokeWidth="1.4"/>
-        <circle cx="21" cy="16" r="3" stroke="#7A9E7E" strokeWidth="1.4"/>
-        <path d="M14 10.5V14M14 14L7 14M14 14L21 14" stroke="#7A9E7E" strokeWidth="1.4" strokeLinecap="round"/>
-        <path d="M7 19V22M21 19V22" stroke="#7A9E7E" strokeWidth="1.4" strokeLinecap="round"/>
+        <circle cx="14" cy="7" r="3.5" stroke="#7D5A3C" strokeWidth="1.4"/>
+        <circle cx="7" cy="16" r="3" stroke="#7D5A3C" strokeWidth="1.4"/>
+        <circle cx="21" cy="16" r="3" stroke="#7D5A3C" strokeWidth="1.4"/>
+        <path d="M14 10.5V14M14 14L7 14M14 14L21 14" stroke="#7D5A3C" strokeWidth="1.4" strokeLinecap="round"/>
+        <path d="M7 19V22M21 19V22" stroke="#7D5A3C" strokeWidth="1.4" strokeLinecap="round"/>
       </svg>
     ),
   },

@@ -50,7 +50,7 @@ function FAQItem({ q, a }: { q: string; a: string }) {
           }`}
         >
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-            <path d="M6 2V10M2 6H10" stroke={open ? "#7A9E7E" : "#2D3B2D"} strokeWidth="1.5" strokeLinecap="round"/>
+            <path d="M6 2V10M2 6H10" stroke={open ? "#7D5A3C" : "#1E1208"} strokeWidth="1.5" strokeLinecap="round"/>
           </svg>
         </span>
       </button>

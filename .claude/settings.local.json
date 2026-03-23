@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:myoasiscentre.com)",
+      "Bash(gh repo:*)",
+      "Bash(curl -s https://api.github.com/repos/Leonxlnx/taste-skill)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\(''''description'''',''''''''\\), d.get\\(''''default_branch'''',''''''''\\)\\)\")",
+      "Bash(gh api:*)",
+      "Bash(curl -s \"https://api.github.com/repos/Leonxlnx/taste-skill/git/trees/main?recursive=1\")",
+      "Bash(python3 -c \":*)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/stitch-skill/SKILL.md\")",
+      "Bash(npm run:*)",
+      "Bash(nvm use:*)",
+      "Bash(fnm use:*)",
+      "Bash(export PATH=\"/Users/gurinder/.nvm/versions/node/v24.14.0/bin:$PATH\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}

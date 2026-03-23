@@ -55,7 +55,7 @@ export default function Testimonials() {
                 {/* Quote mark */}
                 <div className="mb-5">
                   <svg width="32" height="24" viewBox="0 0 32 24" fill="none">
-                    <path d="M0 24V14.4C0 6.4 4.267 1.6 12.8 0L14.4 2.4C10.133 3.467 7.467 5.867 6.4 9.6H12.8V24H0ZM19.2 24V14.4C19.2 6.4 23.467 1.6 32 0L33.6 2.4C29.333 3.467 26.667 5.867 25.6 9.6H32V24H19.2Z" fill="#7A9E7E" fillOpacity="0.2"/>
+                    <path d="M0 24V14.4C0 6.4 4.267 1.6 12.8 0L14.4 2.4C10.133 3.467 7.467 5.867 6.4 9.6H12.8V24H0ZM19.2 24V14.4C19.2 6.4 23.467 1.6 32 0L33.6 2.4C29.333 3.467 26.667 5.867 25.6 9.6H32V24H19.2Z" fill="#7D5A3C" fillOpacity="0.2"/>
                   </svg>
                 </div>
 
@@ -73,7 +73,7 @@ export default function Testimonials() {
                   {/* Star rating */}
                   <div className="flex gap-0.5">
                     {[...Array(5)].map((_, s) => (
-                      <svg key={s} width="12" height="12" viewBox="0 0 12 12" fill="#7A9E7E">
+                      <svg key={s} width="12" height="12" viewBox="0 0 12 12" fill="#7D5A3C">
                         <path d="M6 1L7.5 4.5L11 4.9L8.5 7.3L9.2 11L6 9.3L2.8 11L3.5 7.3L1 4.9L4.5 4.5L6 1Z"/>
                       </svg>
                     ))}
