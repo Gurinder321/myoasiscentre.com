@@ -9,9 +9,7 @@ const services = [
     body: "EMDR (Eye Movement Desensitization and Reprocessing) is Gurpreet's primary specialization and the most powerful tool in her practice. It's an evidence-based therapy that helps your nervous system process traumatic memories — without having to relive or talk through every detail. Whether you're dealing with a single incident or years of accumulated pain, EMDR works at the level where trauma actually lives: in the body and nervous system. Many clients experience lasting relief they didn't think was possible.",
     themes: ["Trauma & PTSD", "Complex Trauma", "Childhood Experiences", "Accidents & Loss", "Phobias", "Anxiety", "Disturbing Memories"],
     bgColor: "bg-forest",
-    textColor: "text-offwhite",
     accent: "bg-sage/20",
-    featured: true,
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
         <path d="M4 14C4 14 8 6 14 6C20 6 24 14 24 14C24 14 20 22 14 22C8 22 4 14 4 14Z" stroke="#7D5A3C" strokeWidth="1.4"/>
