@@ -3,8 +3,15 @@
 import { useState } from "react";
 import FadeUp from "./FadeUp";
 
+// 1. Go to https://formspree.io and create a free account
+// 2. Create a new form pointed at gurpreet@myoasiscounselling.com
+// 3. Replace YOUR_FORM_ID below with your actual Formspree form ID
+const FORMSPREE_ID = "YOUR_FORM_ID";
+
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -13,10 +20,28 @@ export default function Contact() {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // In production: send to Formspree, EmailJS, or your backend
-    setSubmitted(true);
+    setLoading(true);
+    setError("");
+
+    try {
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(form),
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setError("Something went wrong. Please email us directly at gurpreet@myoasiscounselling.com");
+      }
+    } catch {
+      setError("Something went wrong. Please email us directly at gurpreet@myoasiscounselling.com");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -222,12 +247,18 @@ export default function Contact() {
                       />
                     </div>
 
-                    <button type="submit" className="btn-primary justify-center mt-2">
-                      Send My Request
-                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                        <path d="M2 7H12M7 2L12 7L7 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
+                    <button type="submit" disabled={loading} className="btn-primary justify-center mt-2 disabled:opacity-60 disabled:cursor-not-allowed">
+                      {loading ? "Sending…" : "Send My Request"}
+                      {!loading && (
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                          <path d="M2 7H12M7 2L12 7L7 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                      )}
                     </button>
+
+                    {error && (
+                      <p className="font-outfit text-sm text-center text-red-500">{error}</p>
+                    )}
 
                     <p className="font-outfit text-xs text-center text-forest/40 -mt-2">
                       Your information is kept private and confidential.
