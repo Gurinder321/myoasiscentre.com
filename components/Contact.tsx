@@ -85,7 +85,7 @@ export default function Contact() {
                       </svg>
                     ),
                     label: "Location",
-                    value: "201-3701 Hastings St, Burnaby BC",
+                    value: "Burnaby: 201-3701 Hastings St · Langley: 9440 202 St #321",
                     href: "https://maps.google.com/?q=3701+Hastings+Street+Burnaby+BC",
                   },
                   {
@@ -122,7 +122,7 @@ export default function Contact() {
             {/* Session format tags */}
             <FadeUp delay={360}>
               <div className="flex flex-wrap gap-2">
-                {["Virtual Sessions (All of BC)", "In-Person (Burnaby)"].map((tag) => (
+                {["Virtual Sessions (All of BC)", "In-Person (Burnaby)", "In-Person (Langley)"].map((tag) => (
                   <span key={tag} className="font-outfit text-xs text-forest/60 bg-offwhite border border-sand/60 px-3 py-1.5 rounded-full">
                     {tag}
                   </span>

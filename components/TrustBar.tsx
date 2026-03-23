@@ -43,7 +43,7 @@ const credentials = [
         <circle cx="8" cy="7" r="1.5" fill="#7D5A3C"/>
       </svg>
     ),
-    text: "Burnaby, BC",
+    text: "Burnaby & Langley",
   },
   {
     icon: (

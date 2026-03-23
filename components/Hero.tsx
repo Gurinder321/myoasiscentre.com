@@ -76,7 +76,7 @@ export default function Hero() {
               <p className="font-outfit text-forest/65 text-lg leading-relaxed max-w-[42ch] font-light">
                 Evidence-based counselling for adults navigating anxiety,
                 burnout, trauma, relationship challenges, and life transitions —
-                virtual or in-person across BC.
+                virtual or in-person in Burnaby & Langley.
               </p>
             </div>
 
@@ -114,7 +114,7 @@ export default function Hero() {
                 transitionDelay: "560ms",
               }}
             >
-              {["Virtual & In-Person", "Free Consultation", "Mon–Sat 8am–9pm", "RCC #22668"].map((tag) => (
+              {["EMDR Specialist", "Virtual & In-Person", "Burnaby & Langley", "Free Consultation", "RCC #22668"].map((tag) => (
                 <span
                   key={tag}
                   className="font-outfit text-xs text-forest/60 bg-offwhite border border-sand/50 px-3 py-1.5 rounded-full"

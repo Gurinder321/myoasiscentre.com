@@ -70,7 +70,7 @@ export default function About() {
               <FadeUp delay={180}>
                 <div className="flex flex-col gap-5 font-outfit text-offwhite/70 text-base leading-relaxed">
                   <p>
-                    I&apos;m a Registered Clinical Counsellor based in Burnaby, BC, and I&apos;ve built
+                    I&apos;m a Registered Clinical Counsellor with offices in Burnaby and Langley, BC, and I&apos;ve built
                     my practice around one belief: therapy works best when you feel genuinely safe.
                   </p>
                   <p>

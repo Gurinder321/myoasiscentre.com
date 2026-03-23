@@ -24,7 +24,8 @@ const footerLinks = [
     links: [
       { label: "(236) 512-2828", href: "tel:2365122828" },
       { label: "gurpreet@myoasiscounselling.com", href: "mailto:gurpreet@myoasiscounselling.com" },
-      { label: "201-3701 Hastings St, Burnaby BC", href: "https://maps.google.com/?q=3701+Hastings+Street+Burnaby+BC" },
+      { label: "Burnaby: 201-3701 Hastings St, V5C 2H6", href: "https://maps.google.com/?q=3701+Hastings+Street+Burnaby+BC" },
+      { label: "Langley: 9440 202 St #321, V1M 4A6", href: "https://maps.google.com/?q=9440+202+Street+Langley+BC" },
     ],
   },
 ];
@@ -50,11 +51,11 @@ export default function Footer() {
             </div>
 
             <p className="font-outfit text-offwhite/55 text-sm leading-relaxed max-w-[28ch]">
-              Registered Clinical Counselling in Burnaby, BC. Warm, evidence-based support for adults.
+              Registered Clinical Counselling in Burnaby & Langley, BC. Warm, evidence-based support for adults.
             </p>
 
             <div className="flex gap-2">
-              {["Virtual · BC", "In-Person · Burnaby", "RCC #22668"].map((tag) => (
+              {["Virtual · BC", "In-Person · Burnaby", "In-Person · Langley", "RCC #22668"].map((tag) => (
                 <span
                   key={tag}
                   className="font-outfit text-xs text-offwhite/40 border border-offwhite/15 px-3 py-1 rounded-full"

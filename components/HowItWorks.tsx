@@ -27,7 +27,7 @@ const steps = [
   {
     num: "03",
     title: "Begin your sessions",
-    body: "Book your first full session — virtual from anywhere in BC, or in-person at our Burnaby office. We'll go at your pace, always.",
+    body: "Book your first full session — virtual from anywhere in BC, or in-person at our Burnaby or Langley offices. We'll go at your pace, always.",
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
         <path d="M7 14L11.5 18.5L21 9" stroke="#7D5A3C" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>

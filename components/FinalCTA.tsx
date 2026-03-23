@@ -42,7 +42,7 @@ export default function FinalCTA() {
           </FadeUp>
           <FadeUp delay={380}>
             <p className="font-outfit text-sm text-forest/40">
-              Virtual sessions available across BC · In-person in Burnaby · Mon–Sat 8am–9pm
+              Virtual sessions available across BC · In-person in Burnaby & Langley · Mon–Sat 8am–9pm
             </p>
           </FadeUp>
         </div>

@@ -2,8 +2,27 @@ import FadeUp from "./FadeUp";
 
 const services = [
   {
+    id: "emdr",
+    label: "01 — EMDR & Trauma Therapy",
+    title: "Heal what words alone can't reach.",
+    featured: true,
+    body: "EMDR (Eye Movement Desensitization and Reprocessing) is Gurpreet's primary specialization and the most powerful tool in her practice. It's an evidence-based therapy that helps your nervous system process traumatic memories — without having to relive or talk through every detail. Whether you're dealing with a single incident or years of accumulated pain, EMDR works at the level where trauma actually lives: in the body and nervous system. Many clients experience lasting relief they didn't think was possible.",
+    themes: ["Trauma & PTSD", "Complex Trauma", "Childhood Experiences", "Accidents & Loss", "Phobias", "Anxiety", "Disturbing Memories"],
+    bgColor: "bg-forest",
+    textColor: "text-offwhite",
+    accent: "bg-sage/20",
+    featured: true,
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <path d="M4 14C4 14 8 6 14 6C20 6 24 14 24 14C24 14 20 22 14 22C8 22 4 14 4 14Z" stroke="#7D5A3C" strokeWidth="1.4"/>
+        <circle cx="14" cy="14" r="3" stroke="#7D5A3C" strokeWidth="1.4"/>
+        <path d="M6 14H8M20 14H22" stroke="#7D5A3C" strokeWidth="1.4" strokeLinecap="round"/>
+      </svg>
+    ),
+  },
+  {
     id: "individual",
-    label: "01 — Individual Counselling",
+    label: "02 — Individual Counselling",
     title: "Space to breathe, think, and heal.",
     body: "Whether you're managing anxiety, depression, grief, burnout, or simply feeling stuck — individual sessions offer a confidential, non-judgmental space to work through what's weighing on you, at your own pace, using approaches tailored specifically to you.",
     themes: ["Anxiety", "Depression", "Burnout", "Grief", "Life Transitions", "Self-Esteem"],
@@ -18,7 +37,7 @@ const services = [
   },
   {
     id: "couples",
-    label: "02 — Couples Counselling",
+    label: "03 — Couples Counselling",
     title: "Reconnect. Communicate. Rebuild.",
     body: "Relationships go through seasons. Whether you're navigating recurring conflict, trust issues, communication breakdown, or a major life change together — couples counselling creates a structured, safe space to hear each other and find your way back.",
     themes: ["Communication", "Trust & Conflict", "Intimacy", "Life Changes", "Reconnection"],
@@ -31,22 +50,6 @@ const services = [
         <path d="M2 24C2 20 5.5 17 10 17" stroke="#7D5A3C" strokeWidth="1.4" strokeLinecap="round"/>
         <path d="M18 17C22.5 17 26 20 26 24" stroke="#7D5A3C" strokeWidth="1.4" strokeLinecap="round"/>
         <path d="M14 19C14 19 12 21 14 23C16 21 14 19 14 19Z" stroke="#7D5A3C" strokeWidth="1.2" fill="#7D5A3C20"/>
-      </svg>
-    ),
-  },
-  {
-    id: "emdr",
-    label: "03 — EMDR & Trauma Therapy",
-    title: "Heal what words alone can't reach.",
-    body: "EMDR (Eye Movement Desensitization and Reprocessing) is an evidence-based therapy that helps your nervous system process traumatic memories — without needing to talk through every detail. Many clients experience lasting relief they didn't think was possible.",
-    themes: ["Trauma & PTSD", "Complex Trauma", "Childhood Experiences", "Phobias", "Disturbing Memories"],
-    bgColor: "bg-sage/8",
-    accent: "bg-sage/10",
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <path d="M4 14C4 14 8 6 14 6C20 6 24 14 24 14C24 14 20 22 14 22C8 22 4 14 4 14Z" stroke="#7D5A3C" strokeWidth="1.4"/>
-        <circle cx="14" cy="14" r="3" stroke="#7D5A3C" strokeWidth="1.4"/>
-        <path d="M6 14H8M20 14H22" stroke="#7D5A3C" strokeWidth="1.4" strokeLinecap="round"/>
       </svg>
     ),
   },
@@ -91,26 +94,96 @@ export default function Services() {
           </div>
           <FadeUp delay={200}>
             <p className="font-outfit text-forest/60 text-base leading-relaxed max-w-[38ch] md:text-right">
-              Every person's situation is different. Sessions are tailored to you — not a script.
+              Every person&apos;s situation is different. Sessions are tailored to you — not a script.
             </p>
           </FadeUp>
         </div>
 
-        {/* Services — zig-zag layout */}
+        {/* EMDR — Featured hero card */}
+        <FadeUp>
+          <div className="rounded-3xl overflow-hidden bg-forest border border-sand/20 mb-6 group hover:shadow-xl hover:shadow-forest/15 transition-all duration-500">
+            <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr]">
+              {/* Left — content */}
+              <div className="p-10 lg:p-12 flex flex-col gap-6">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-2xl bg-sage/20 flex items-center justify-center">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                      <path d="M4 14C4 14 8 6 14 6C20 6 24 14 24 14C24 14 20 22 14 22C8 22 4 14 4 14Z" stroke="#B8956A" strokeWidth="1.4"/>
+                      <circle cx="14" cy="14" r="3" stroke="#B8956A" strokeWidth="1.4"/>
+                      <path d="M6 14H8M20 14H22" stroke="#B8956A" strokeWidth="1.4" strokeLinecap="round"/>
+                    </svg>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <span className="font-outfit text-xs uppercase tracking-widest text-sand/60">01 — Primary Specialization</span>
+                    <span className="font-outfit text-xs bg-sand/20 text-sand px-3 py-1 rounded-full border border-sand/30">Gurpreet&apos;s Niche</span>
+                  </div>
+                </div>
+
+                <h3 className="font-cormorant text-display-md text-offwhite font-light leading-tight">
+                  EMDR & Trauma Therapy
+                </h3>
+
+                <p className="font-outfit text-offwhite/65 text-base leading-relaxed max-w-text-sm">
+                  EMDR (Eye Movement Desensitization and Reprocessing) is Gurpreet&apos;s primary specialization. It&apos;s an evidence-based therapy that helps your nervous system process traumatic memories — without having to relive every detail. Whether you&apos;re dealing with a single incident or years of accumulated pain, EMDR works at the level where trauma actually lives: the body and the nervous system.
+                </p>
+
+                <p className="font-cormorant text-xl text-sand italic font-light">
+                  &ldquo;Many clients experience relief they didn&apos;t think was possible.&rdquo;
+                </p>
+
+                <div className="mt-2">
+                  <a href="#contact" className="btn-primary bg-sand text-forest hover:bg-offwhite inline-flex items-center gap-2">
+                    Book an EMDR Consultation
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                      <path d="M2 7H12M7 2L12 7L7 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              {/* Right — themes */}
+              <div className="p-10 lg:p-12 bg-forest-muted/40 border-t lg:border-t-0 lg:border-l border-offwhite/10 flex flex-col justify-between">
+                <div>
+                  <p className="font-outfit text-xs uppercase tracking-widest text-sand/60 mb-6">Commonly addressed</p>
+                  <div className="flex flex-wrap gap-2.5">
+                    {["Trauma & PTSD", "Complex Trauma", "Childhood Experiences", "Accidents & Loss", "Phobias", "Anxiety", "Disturbing Memories"].map((theme) => (
+                      <span key={theme} className="font-outfit text-sm text-offwhite/70 bg-offwhite/8 border border-offwhite/15 px-4 py-2 rounded-full">
+                        {theme}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="mt-10">
+                  <p className="font-outfit text-xs text-offwhite/30 mb-3 uppercase tracking-widest">Why EMDR works</p>
+                  <ul className="flex flex-col gap-2">
+                    {[
+                      "Evidence-based & widely researched",
+                      "No need to talk through every detail",
+                      "Works where talk therapy can't reach",
+                      "Lasting results, not just coping skills",
+                    ].map((point) => (
+                      <li key={point} className="flex items-start gap-2.5 font-outfit text-sm text-offwhite/60">
+                        <span className="mt-1.5 w-1 h-1 rounded-full bg-sand/60 flex-shrink-0" />
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </FadeUp>
+
+        {/* Remaining services — zig-zag */}
         <div className="flex flex-col gap-6">
-          {services.map((service, i) => (
+          {services.slice(1).map((service, i) => (
             <FadeUp key={service.id} delay={i * 80}>
               <div
                 className={`group grid grid-cols-1 md:grid-cols-[1fr_1.4fr] gap-0 rounded-3xl overflow-hidden border border-sand/40 hover:border-sage/40 transition-all duration-500 hover:shadow-lg hover:shadow-forest/5 ${
                   i % 2 === 1 ? "md:grid-cols-[1.4fr_1fr]" : ""
                 }`}
               >
-                {/* Info side */}
-                <div
-                  className={`p-8 lg:p-10 flex flex-col justify-between ${service.bgColor} ${
-                    i % 2 === 1 ? "md:order-2" : ""
-                  }`}
-                >
+                <div className={`p-8 lg:p-10 flex flex-col justify-between ${service.bgColor} ${i % 2 === 1 ? "md:order-2" : ""}`}>
                   <div className="flex flex-col gap-6">
                     <div className="flex items-center gap-4">
                       <div className={`w-12 h-12 rounded-2xl ${service.accent} flex items-center justify-center`}>
@@ -120,59 +193,35 @@ export default function Services() {
                         {service.label}
                       </span>
                     </div>
-
                     <h3 className="font-cormorant text-display-sm text-forest font-light leading-tight">
                       {service.title}
                     </h3>
-
                     <p className="font-outfit text-forest/65 text-base leading-relaxed max-w-text-sm">
                       {service.body}
                     </p>
                   </div>
-
                   <div className="mt-8">
-                    <a
-                      href="#contact"
-                      className="inline-flex items-center gap-2 font-outfit text-sm text-sage hover:text-forest transition-colors duration-200 group/link"
-                    >
+                    <a href="#contact" className="inline-flex items-center gap-2 font-outfit text-sm text-sage hover:text-forest transition-colors duration-200 group/link">
                       Book a consultation
-                      <svg
-                        width="14"
-                        height="14"
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        className="transition-transform duration-300 group-hover/link:translate-x-1"
-                      >
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="transition-transform duration-300 group-hover/link:translate-x-1">
                         <path d="M2 7H12M7 2L12 7L7 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     </a>
                   </div>
                 </div>
 
-                {/* Tags / themes side */}
-                <div
-                  className={`p-8 lg:p-10 bg-parchment/60 flex flex-col justify-center ${
-                    i % 2 === 1 ? "md:order-1" : ""
-                  }`}
-                >
-                  <p className="font-outfit text-xs uppercase tracking-widest text-forest/40 mb-6">
-                    Commonly addressed
-                  </p>
+                <div className={`p-8 lg:p-10 bg-parchment/60 flex flex-col justify-center ${i % 2 === 1 ? "md:order-1" : ""}`}>
+                  <p className="font-outfit text-xs uppercase tracking-widest text-forest/40 mb-6">Commonly addressed</p>
                   <div className="flex flex-wrap gap-3">
                     {service.themes.map((theme) => (
-                      <span
-                        key={theme}
-                        className="font-outfit text-sm text-forest/70 bg-offwhite border border-sand/60 px-4 py-2 rounded-full hover:border-sage/50 hover:text-sage transition-all duration-200"
-                      >
+                      <span key={theme} className="font-outfit text-sm text-forest/70 bg-offwhite border border-sand/60 px-4 py-2 rounded-full hover:border-sage/50 hover:text-sage transition-all duration-200">
                         {theme}
                       </span>
                     ))}
                   </div>
-
-                  {/* Decorative number */}
                   <div className="mt-auto pt-8">
                     <span className="font-cormorant text-[80px] leading-none text-forest/5 font-light select-none">
-                      {String(i + 1).padStart(2, "0")}
+                      {String(i + 2).padStart(2, "0")}
                     </span>
                   </div>
                 </div>

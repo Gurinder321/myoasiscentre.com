@@ -18,17 +18,18 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Gurpreet | Registered Clinical Counsellor — Vancouver, BC",
+  title: "Gurpreet | EMDR & Counselling — Burnaby & Langley, BC",
   description:
-    "Warm, evidence-based counselling for adults navigating anxiety, burnout, trauma, and life transitions. Virtual & in-person sessions in Burnaby, BC. Book a free 15-minute consultation.",
+    "EMDR-trained Registered Clinical Counsellor offering trauma therapy, anxiety counselling, and couples counselling. In-person in Burnaby & Langley, BC — virtual across BC. Book a free 15-minute consultation.",
   keywords: [
-    "counselling Vancouver",
-    "therapy Burnaby",
-    "anxiety counselling BC",
     "EMDR therapist Vancouver",
-    "registered clinical counsellor",
-    "couples counselling Vancouver",
+    "EMDR therapy Burnaby",
+    "EMDR therapy Langley",
     "trauma therapy BC",
+    "registered clinical counsellor Burnaby",
+    "counselling Langley BC",
+    "anxiety counselling BC",
+    "couples counselling Vancouver",
     "virtual counselling BC",
   ],
   openGraph: {
