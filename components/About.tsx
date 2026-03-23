@@ -1,4 +1,5 @@
 import FadeUp from "./FadeUp";
+import Image from "next/image";
 
 const credentials = [
   { title: "RCC #22668", body: "Registered Clinical Counsellor, BC Association of Clinical Counsellors" },
@@ -20,16 +21,12 @@ export default function About() {
             <FadeUp>
               {/* Photo area */}
               <div className="relative rounded-3xl overflow-hidden aspect-[4/5] bg-forest-muted/40 border border-sage/20">
-                {/* Photo placeholder — replace with <Image src="/gurpreet-about.jpg" fill .../> */}
-                <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-gradient-to-b from-forest-muted/20 to-forest/80">
-                  <div className="w-16 h-16 rounded-full bg-sage/20 flex items-center justify-center">
-                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                      <circle cx="14" cy="10" r="5" stroke="#7A9E7E" strokeWidth="1.4"/>
-                      <path d="M5 24C5 19 9 16 14 16C19 16 23 19 23 24" stroke="#7A9E7E" strokeWidth="1.4" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                  <p className="font-cormorant text-offwhite/50 italic text-base">Add photo: /public/gurpreet-about.jpg</p>
-                </div>
+                <Image
+                  src="/gurpreet.png"
+                  alt="Gurpreet, Registered Clinical Counsellor"
+                  fill
+                  className="object-cover object-top"
+                />
 
                 {/* Floating quote */}
                 <div className="absolute bottom-5 left-5 right-5 bg-offwhite/10 backdrop-blur-sm border border-offwhite/15 rounded-2xl p-5">

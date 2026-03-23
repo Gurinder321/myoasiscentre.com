@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function Hero() {
   const [mounted, setMounted] = useState(true);
@@ -138,20 +139,13 @@ export default function Hero() {
 
             {/* Photo container */}
             <div className="relative w-full aspect-[3/4] max-w-sm rounded-[36px] overflow-hidden bg-sand-light">
-              {/* Placeholder — replace with <Image src="/gurpreet.jpg" ... /> */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 bg-gradient-to-b from-sand-light via-sand to-forest/10">
-                <div className="w-20 h-20 rounded-full bg-sage/30 flex items-center justify-center">
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <circle cx="16" cy="12" r="6" stroke="#7A9E7E" strokeWidth="1.5"/>
-                    <path d="M4 28C4 22 9 18 16 18C23 18 28 22 28 28" stroke="#7A9E7E" strokeWidth="1.5" strokeLinecap="round"/>
-                  </svg>
-                </div>
-                <p className="font-cormorant text-lg text-forest/50 italic">Gurpreet's photo here</p>
-                <p className="font-outfit text-xs text-forest/40 text-center px-6">
-                  Replace this div with:<br/>
-                  <code className="text-sage text-[10px]">&lt;Image src="/gurpreet.jpg" fill .../&gt;</code>
-                </p>
-              </div>
+              <Image
+                src="/gurpreet.png"
+                alt="Gurpreet, Registered Clinical Counsellor"
+                fill
+                className="object-cover object-top"
+                priority
+              />
 
               {/* Floating credential badge */}
               <div className="absolute bottom-5 left-5 right-5 bg-offwhite/95 backdrop-blur-sm rounded-2xl p-4 border border-sand/40 shadow-lg shadow-forest/5">
