@@ -3,9 +3,10 @@
 import { useEffect, useState } from "react";
 
 export default function Hero() {
-  const [mounted, setMounted] = useState(false);
+  const [mounted, setMounted] = useState(true);
 
   useEffect(() => {
+    setMounted(false);
     const t = setTimeout(() => setMounted(true), 80);
     return () => clearTimeout(t);
   }, []);
