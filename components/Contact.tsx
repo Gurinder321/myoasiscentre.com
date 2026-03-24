@@ -6,7 +6,7 @@ import FadeUp from "./FadeUp";
 // 1. Go to https://formspree.io and create a free account
 // 2. Create a new form pointed at gurpreet@myoasiscounselling.com
 // 3. Replace YOUR_FORM_ID below with your actual Formspree form ID
-const FORMSPREE_ID = "YOUR_FORM_ID";
+const FORMSPREE_ID = "xaqlwwzo";
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
