@@ -10,7 +10,7 @@ const navLinks = [
   { label: "FAQ", href: "#faq" },
 ];
 
-export default function Nav() {
+export default function Nav({ hideLinks = false }: { hideLinks?: boolean }) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -54,18 +54,20 @@ export default function Nav() {
           </Link>
 
           {/* Desktop Links */}
-          <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="font-outfit text-sm text-forest/70 hover:text-forest transition-colors duration-200 relative group"
-              >
-                {link.label}
-                <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-sage transition-all duration-300 group-hover:w-full" />
-              </a>
-            ))}
-          </div>
+          {!hideLinks && (
+            <div className="hidden md:flex items-center gap-8">
+              {navLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="font-outfit text-sm text-forest/70 hover:text-forest transition-colors duration-200 relative group"
+                >
+                  {link.label}
+                  <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-sage transition-all duration-300 group-hover:w-full" />
+                </a>
+              ))}
+            </div>
+          )}
 
           {/* Desktop CTA */}
           <a
@@ -102,19 +104,21 @@ export default function Nav() {
         className={`fixed inset-0 z-40 bg-parchment flex flex-col justify-center px-10 transition-all duration-500 ease-spring
           ${menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none translate-y-4"}`}
       >
-        <div className="flex flex-col gap-8 mb-12">
-          {navLinks.map((link, i) => (
-            <a
-              key={link.href}
-              href={link.href}
-              onClick={() => setMenuOpen(false)}
-              className="font-cormorant text-display-sm text-forest hover:text-sage transition-colors duration-200"
-              style={{ transitionDelay: `${i * 60}ms` }}
-            >
-              {link.label}
-            </a>
-          ))}
-        </div>
+        {!hideLinks && (
+          <div className="flex flex-col gap-8 mb-12">
+            {navLinks.map((link, i) => (
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={() => setMenuOpen(false)}
+                className="font-cormorant text-display-sm text-forest hover:text-sage transition-colors duration-200"
+                style={{ transitionDelay: `${i * 60}ms` }}
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        )}
         <a
           href="#contact"
           onClick={() => setMenuOpen(false)}

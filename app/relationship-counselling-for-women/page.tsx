@@ -174,7 +174,7 @@ export default function RelationshipCounsellingForWomenPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <Nav />
+      <Nav hideLinks />
       <main>
         {/* ── HERO ── */}
         <section className="relative min-h-[100dvh] flex items-center bg-parchment overflow-hidden">
