@@ -74,10 +74,9 @@ export default function About() {
                     my practice around one belief: therapy works best when you feel genuinely safe.
                   </p>
                   <p>
-                    I trained at Simon Fraser University and completed my Master of Arts in Counselling
-                    Psychology at Yorkville University. I&apos;m an EMDR-trained therapist and I draw from
-                    CBT, ACT, and Emotion-Focused Therapy — but more than any framework, I lead with
-                    curiosity, warmth, and a real commitment to meeting you where you are.
+                    I&apos;m an EMDR-trained therapist and I draw from CBT, ACT, and Emotion-Focused Therapy —
+                    but more than any framework, I lead with curiosity, warmth, and a real commitment to
+                    meeting you where you are.
                   </p>
                   <p>
                     I work with adults across all of life&apos;s challenges: anxiety, burnout,
