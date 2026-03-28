@@ -32,6 +32,10 @@ export const metadata: Metadata = {
     "attachment issues counselling Vancouver",
     "RCC relationship counselling Burnaby",
     "online relationship therapy BC women",
+    "EMDR relationship trauma Burnaby",
+    "EMDR therapy for women Vancouver",
+    "EMDR emotional abuse recovery BC",
+    "EMDR attachment trauma counselling",
   ],
   alternates: {
     canonical: pageUrl,
@@ -249,6 +253,17 @@ const services = [
       </svg>
     ),
   },
+  {
+    title: "EMDR for Relationship Trauma",
+    description:
+      "Past experiences — childhood wounds, betrayal, or abuse — can quietly drive how you show up in relationships today. EMDR is an evidence-based therapy that helps reprocess these memories so they no longer control your present.",
+    icon: (
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 11C4 11 6 7 11 7C16 7 18 11 18 11C18 11 16 15 11 15C6 15 4 11 4 11Z" stroke="currentColor" strokeWidth="1.4" strokeLinejoin="round"/>
+        <circle cx="11" cy="11" r="2.5" stroke="currentColor" strokeWidth="1.4"/>
+      </svg>
+    ),
+  },
 ];
 
 const steps = [
@@ -292,6 +307,10 @@ const faqs = [
   {
     q: "What approaches does Gurpreet use?",
     a: "Gurpreet draws on Emotion-Focused Therapy (EFT), Attachment Theory, CBT, ACT, and EMDR for trauma-related relationship wounds. Sessions are warm, collaborative, and tailored to you.",
+  },
+  {
+    q: "What is EMDR and how does it help with relationship issues?",
+    a: "EMDR (Eye Movement Desensitization and Reprocessing) is an evidence-based therapy that helps the brain reprocess distressing memories — including past relationship trauma, childhood wounds, or betrayal. When unresolved experiences drive your current relationship patterns (like chronic anxiety, mistrust, or shutting down emotionally), EMDR can help clear the root cause rather than just managing the symptoms.",
   },
 ];
 
@@ -361,6 +380,7 @@ export default function RelationshipCounsellingForWomenPage() {
                   {[
                     "Anxious Attachment",
                     "Codependency",
+                    "EMDR Therapy",
                     "Emotional Abuse Recovery",
                     "Virtual & In-Person",
                     "RCC #22668",
