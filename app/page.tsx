@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import TrustBar from "@/components/TrustBar";
 import Resonance from "@/components/Resonance";
 import Services from "@/components/Services";
-import About from "@/components/About";
 import HowItWorks from "@/components/HowItWorks";
 import Testimonials from "@/components/Testimonials";
 import Team from "@/components/Team";
@@ -21,7 +20,6 @@ export default function Home() {
         <TrustBar />
         <Resonance />
         <Services />
-        <About />
         <HowItWorks />
         <Testimonials />
         <Team />
