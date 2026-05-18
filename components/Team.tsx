@@ -13,7 +13,7 @@ const teamMembers: TeamMember[] = [
     name: "Gurpreet",
     title: "Registered Clinical Counsellor",
     image: "/gurpreet.png",
-    bio: "Gurpreet is a Registered Clinical Counsellor (RCC #22668) with a passion for helping people heal from relationship wounds, trauma, and life's hardest moments. She specializes in EMDR therapy, anxious attachment, codependency, and emotional abuse recovery. Her approach is warm, evidence-based, and deeply compassionate. Gurpreet believes that healing happens in relationship — and she's honored to walk alongside you on your journey toward wholeness, self-compassion, and genuine connection.",
+    bio: "Gurpreet is a Registered Clinical Counsellor (RCC #22668) with a passion for helping people heal from relationship wounds, trauma, and life's hardest moments. She specializes in EMDR therapy, anxious attachment, codependency, and emotional abuse recovery. Her approach is warm, evidence-based, and deeply compassionate. Gurpreet believes that healing is not linear, it is a process that can take time and patience — and she's honored to walk alongside you on your journey toward wholeness, self-compassion, and genuine connection.",
   },
   {
     name: "Duncan White",
@@ -23,7 +23,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: "Helen Liu",
-    title: "Counselling Psychology Graduate",
+    title: "Pre Registered Counsellor",
     image: "/Helen Liu.jpg",
     bio: "Helen holds an MA in Counselling Psychology from Simon Fraser University and completed her practicum at SFU's Health & Counselling Centre. She's passionate about supporting young people and adults, with a particular focus on racialized individuals and immigrants. Her clinical practice is deeply relational, grounded in anti-oppressive practice and integrated mind-body-emotion approaches. Helen draws on emotion-focused therapy, somatic therapies, inner child work, and narrative therapy. Her research explored cultural foods as a path to eating disorder recovery for ethnic minority immigrants, informing her commitment to culturally responsive, holistic healing.",
   },
@@ -31,7 +31,7 @@ const teamMembers: TeamMember[] = [
 
 export default function Team() {
   return (
-    <section className="bg-parchment py-section">
+    <section id="team" className="bg-parchment py-section">
       <div className="section-wrap">
         <FadeUp>
           <span className="label flex items-center gap-3 mb-6">
