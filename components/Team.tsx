@@ -54,6 +54,9 @@ export default function Team() {
                     alt={`${member.name}, ${member.title}`}
                     fill
                     className="object-cover object-top"
+                    quality={80}
+                    loading={index === 0 ? "eager" : "lazy"}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>
 
