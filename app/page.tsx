@@ -6,6 +6,7 @@ import Services from "@/components/Services";
 import About from "@/components/About";
 import HowItWorks from "@/components/HowItWorks";
 import Testimonials from "@/components/Testimonials";
+import Team from "@/components/Team";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import FinalCTA from "@/components/FinalCTA";
@@ -23,6 +24,7 @@ export default function Home() {
         <About />
         <HowItWorks />
         <Testimonials />
+        <Team />
         <FAQ />
         <Contact />
         <FinalCTA />
