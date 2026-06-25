@@ -23,9 +23,9 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: "Helen Liu",
-    title: "Pre Registered Counsellor",
+    title: "Registered Clinical Counsellor",
     image: "/Helen Liu.jpg",
-    bio: "Helen holds an MA in Counselling Psychology from Simon Fraser University and completed her practicum at SFU's Health & Counselling Centre. She's passionate about supporting young people and adults, with a particular focus on racialized individuals and immigrants. Her clinical practice is deeply relational, grounded in anti-oppressive practice and integrated mind-body-emotion approaches. Helen draws on emotion-focused therapy, somatic therapies, inner child work, and narrative therapy. Her research explored cultural foods as a path to eating disorder recovery for ethnic minority immigrants, informing her commitment to culturally responsive, holistic healing.",
+    bio: "Helen is a Registered Clinical Counsellor (RCC #29655) with an MA in Counselling Psychology from Simon Fraser University and completed her practicum at SFU's Health & Counselling Centre. She's passionate about supporting young people and adults, with a particular focus on racialized individuals and immigrants. Her clinical practice is deeply relational, grounded in anti-oppressive practice and integrated mind-body-emotion approaches. Helen draws on emotion-focused therapy, somatic therapies, inner child work, and narrative therapy. Her research explored cultural foods as a path to eating disorder recovery for ethnic minority immigrants, informing her commitment to culturally responsive, holistic healing.",
   },
 ];
 
