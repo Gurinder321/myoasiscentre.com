@@ -15,18 +15,6 @@ const teamMembers: TeamMember[] = [
     image: "/gurpreet.png",
     bio: "Gurpreet is a Registered Clinical Counsellor (RCC #22668) with a passion for helping people heal from relationship wounds, trauma, and life's hardest moments. She specializes in EMDR therapy, anxious attachment, codependency, and emotional abuse recovery. Her approach is warm, evidence-based, and deeply compassionate. Gurpreet believes that healing is not linear, it is a process that can take time and patience — and she's honored to walk alongside you on your journey toward wholeness, self-compassion, and genuine connection.",
   },
-  {
-    name: "Duncan White",
-    title: "Canadian Certified Counsellor",
-    image: "/Duncan.jpg",
-    bio: "Duncan is a Canadian Certified Counsellor and Certified School Counsellor who believes everyone deserves the opportunity to live their good life. His core therapeutic focus is Acceptance and Commitment Therapy, combined with a lens of Mindful Self-Compassion. With over 10 years of experience in schools, Duncan brings strength-based, solution-focused approaches to his work. He's open to supporting adults and young people from all backgrounds, specializing in neurodivergence, anxiety, stress management, relationships, and developing psychological flexibility to live a mindful, values-based life.",
-  },
-  {
-    name: "Helen Liu",
-    title: "Registered Clinical Counsellor",
-    image: "/Helen Liu.jpg",
-    bio: "Helen is a Registered Clinical Counsellor (RCC #29655) with an MA in Counselling Psychology from Simon Fraser University and completed her practicum at SFU's Health & Counselling Centre. She's passionate about supporting young people and adults, with a particular focus on racialized individuals and immigrants. Her clinical practice is deeply relational, grounded in anti-oppressive practice and integrated mind-body-emotion approaches. Helen draws on emotion-focused therapy, somatic therapies, inner child work, and narrative therapy. Her research explored cultural foods as a path to eating disorder recovery for ethnic minority immigrants, informing her commitment to culturally responsive, holistic healing.",
-  },
 ];
 
 export default function Team() {

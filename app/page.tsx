@@ -5,7 +5,6 @@ import Resonance from "@/components/Resonance";
 import Services from "@/components/Services";
 import HowItWorks from "@/components/HowItWorks";
 import Testimonials from "@/components/Testimonials";
-import Team from "@/components/Team";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import FinalCTA from "@/components/FinalCTA";
@@ -22,7 +21,6 @@ export default function Home() {
         <Services />
         <HowItWorks />
         <Testimonials />
-        <Team />
         <FAQ />
         <Contact />
         <FinalCTA />
