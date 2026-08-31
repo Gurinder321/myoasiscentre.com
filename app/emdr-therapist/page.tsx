@@ -3,7 +3,6 @@ import Image from "next/image";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FadeUp from "@/components/FadeUp";
-import Team from "@/components/Team";
 import Contact from "@/components/Contact";
 
 const siteUrl = "https://www.myoasiscentre.com";
@@ -325,9 +324,6 @@ export default function EMDRTherapistPage() {
             </FadeUp>
           </div>
         </section>
-
-        {/* ── TEAM ── */}
-        <Team />
 
         {/* ── CONTACT FORM ── */}
         <Contact />
